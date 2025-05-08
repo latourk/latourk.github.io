@@ -60,7 +60,7 @@ header {
 nav {
     width: 80%;
     margin: 2%;
-    padding: 0%;
+    padding: 5%;
 }
 
 footer {
@@ -91,7 +91,6 @@ body {
     background-position-x: right;
     margin-left: 2%;
     font-family: 'Cascadia Code', sans-serif;
-    .clear-left
     
 
 }
