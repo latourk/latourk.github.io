@@ -1,3 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Columns */
+
+.columns {float:left;}
+.col-1 {width: 33.33%;}
+.col-2 {width: 33.33%;}
+.col-3 {width: 33.33%;}
+
+
+/* End Columns CSS */
+
+/****************** Positioning *********************/
+
+#Wrapper {
+    width: 80%;
+    margin: auto;
+}
+
 h1 {
     font-family: sans-serif;
     font-size: 50px;
@@ -29,9 +51,24 @@ ul {
 
 }
 
+header {
+    width: 80%;
+    margin: 2%;
+    padding: 0%;
+}
+
+nav {
+    width: 80%;
+    margin: 2%;
+    padding: 0%;
+}
+
 footer {
     text-align: center;
     color: white;
+    width: 80%;
+    margin: 2%;
+    padding: 0%;
 }
 
 a:link {
@@ -46,6 +83,7 @@ a:visited {
     color: green
 }
 
+
 body {
     background-color: rgb(27, 27, 27);
     background-image: url(images/Spiral_02.png);
@@ -53,7 +91,73 @@ body {
     background-position-x: right;
     margin-left: 2%;
     font-family: 'Cascadia Code', sans-serif;
+    .clear-left
     
 
 }
 
+.height {
+    height: 30em;
+}
+
+.relative {
+    position: relative;
+    top: 4em;
+    left: 4em;
+   
+}
+
+.absolute {
+    position: absolute;
+    top: 4em;
+    right: 4em;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    left:0;
+    float: none;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.orange {
+    background-color: #ffa500;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    box-sizing: border-box;
+    /* border: 1px black solid; */
+
+ 
+}
