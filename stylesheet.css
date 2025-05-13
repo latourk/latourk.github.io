@@ -6,9 +6,18 @@
 /* Columns */
 
 .columns {float:left;}
-.col-1 {width: 33.33%;}
-.col-2 {width: 33.33%;}
-.col-3 {width: 33.33%;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 
 /* End Columns CSS */
@@ -38,7 +47,7 @@ h3 {
 }
 
 p {
-    width: 25%;
+    width: 100%;
     height: auto;
     text-transform: lowercase;
     color: white;
@@ -64,11 +73,12 @@ nav {
 }
 
 footer {
-    text-align: center;
+    text-align: left;
     color: white;
     width: 80%;
-    margin: 2%;
+    margin: 0%;
     padding: 0%;
+    margin-top: 2%;
 }
 
 a:link {
@@ -95,68 +105,12 @@ body {
 
 }
 
-.height {
-    height: 30em;
-}
+@media only screen and (max-width: 400px) {
 
-.relative {
-    position: relative;
-    top: 4em;
-    left: 4em;
-   
-}
-
-.absolute {
-    position: absolute;
-    top: 4em;
-    right: 4em;
-}
-
-.sticky {
-    position: sticky;
-    top: 0;
-    left:0;
-    float: none;
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
-    left:0;
-}
-
-.clear-left {
-    clear: left;
-}
-
-.red {
-    background-color: #ff0000;
-}
-
-.blue {
-    background-color: #0000ff;
-}
-
-.yellow {
-    background-color: #ffff00;
-}
-
-.green {
-    background-color: #008000;
-}
-
-.orange {
-    background-color: #ffa500;
-}
-
-p {
-    margin: auto;
-    text-align: center;
-}
-
-div {
-    box-sizing: border-box;
-    /* border: 1px black solid; */
-
- 
+    .column {
+        width: 100%;
+        float: left;
+        margin: 0%;
+    
+    }
 }
